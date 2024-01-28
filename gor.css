@@ -1,0 +1,70 @@
+.c{
+
+    height: 50vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+
+}
+
+.inputt{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#pencil{
+border: 2px solid black;
+font-size: 70px;
+background-color: rgb(128, 0, 255);
+color: aliceblue;
+padding: 3px;
+border-radius: 10px;
+}
+
+input{
+    color: aliceblue;
+ 
+    border-top: 50px rgb(235, 235, 235);
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    background-color: rgba(13, 12, 12, 0);
+}
+
+.groceries{
+    border: 2px solid rgba(245, 245, 245, 0.319);
+    background-color: rgba(0, 0, 0, 0.542);
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+
+
+}
+
+.container-fluid{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   background-image: url("https://wallpapers.com/images/featured/dark-mountain-gd3o1mx0wxezbewk.jpg");
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: darken;
+
+}
+
+#allitems{
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Sacramento', 'cursive';
+ 
+}
+
+.pressed{
+    background-color: black;
+    border-radius: 40px;
+}
